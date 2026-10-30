@@ -11,6 +11,17 @@ upstream:
     type: alpine_apk
     repo_url: http://dl-cdn.alpinelinux.org/alpine/v3.24/community/
     package: kicad
+  notes:
+    type: github_release
+    repo: KiCad/kicad-source-mirror
+    transform:
+    - regex: -r\d+$
+      replace: ''
+  sponsor:
+  - name: KiCad donate
+    url: https://www.kicad.org/donate/
+  - name: KiCad on Linux Foundation crowdfunding
+    url: https://crowdfunding.linuxfoundation.org/projects/kicad
 
 release:
   branch: master
