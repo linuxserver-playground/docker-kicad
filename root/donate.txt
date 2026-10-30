@@ -1,0 +1,2 @@
+KiCad donate: https://www.kicad.org/donate/
+KiCad on Linux Foundation crowdfunding: https://crowdfunding.linuxfoundation.org/projects/kicad
